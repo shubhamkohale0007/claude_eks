@@ -1,0 +1,11 @@
+# Secrets — kabhi commit mat karo
+.env
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+crash.log
+override.tf
