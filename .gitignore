@@ -6,6 +6,6 @@
 .terraform.lock.hcl
 *.tfstate
 *.tfstate.backup
-terraform.tfvars
+terraform.tfvars          # auto-generated from .env via `make replace`
 crash.log
 override.tf
